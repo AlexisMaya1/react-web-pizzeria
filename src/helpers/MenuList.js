@@ -7,33 +7,33 @@ import Expensive from "../assets/expensive.jpg";
 
 export const MenuList = [
   {
-    name: "Pepperoni Pizza",
+    name: "Pepperoni",
     image: Pepperoni,
-    price: 15.99,
+    price: 152.99,
   },
   {
-    name: "Margherita Pizza",
+    name: "Margarita",
     image: Margherita,
-    price: 11.99,
+    price: 177.99,
   },
   {
-    name: "PedroTech Special Pizza",
+    name: "Especial",
     image: PedroTechSpecial,
     price: 256.53,
   },
   {
-    name: "Vegan Pizza",
+    name: "Vegana",
     image: Vegan,
-    price: 17.99,
+    price: 175.99,
   },
   {
-    name: "Pineapple Pizza",
+    name: "Hawaiana",
     image: Pineapple,
-    price: 4.99,
+    price: 249.99,
   },
   {
-    name: "Very Expensive Pizza",
+    name: "Combinada",
     image: Expensive,
-    price: 1997.99,
+    price: 297.99,
   },
 ];

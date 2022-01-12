@@ -10,21 +10,21 @@ function Contact() {
         style={{ backgroundImage: `url(${PizzaLeft})` }}
       ></div>
       <div className="rightSide">
-        <h1> Contact Us</h1>
+        <h1> Contáctanos</h1>
 
         <form id="contact-form" method="POST">
-          <label htmlFor="name">Full Name</label>
-          <input name="name" placeholder="Enter full name..." type="text" />
-          <label htmlFor="email">Email</label>
-          <input name="email" placeholder="Enter email..." type="email" />
-          <label htmlFor="message">Message</label>
+          <label htmlFor="name">Nombre</label>
+          <input name="name" placeholder="Escriba su nombre completo..." type="text" />
+          <label htmlFor="email">Correo</label>
+          <input name="email" placeholder="Escriba su correo..." type="email" />
+          <label htmlFor="message">Mensaje</label>
           <textarea
             rows="6"
-            placeholder="Enter message..."
+            placeholder="Escriba su mensaje..."
             name="message"
             required
           ></textarea>
-          <button type="submit"> Send Message</button>
+          <button type="submit"> Enviar mensaje</button>
         </form>
       </div>
     </div>
